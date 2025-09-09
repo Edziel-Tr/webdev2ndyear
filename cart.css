@@ -1,0 +1,309 @@
+.CART {
+  background-color: #ffffff;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.CART .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.CART .rectangle {
+  width: 1440px;
+  height: 27px;
+  top: 95px;
+  background-color: #f7f5f5;
+  position: absolute;
+  left: 0;
+}
+
+.CART .rectangle-2 {
+  width: 1440px;
+  height: 18px;
+  top: 540px;
+  background-color: #f7f5f5;
+  position: absolute;
+  left: 0;
+}
+
+.CART .text-wrapper {
+  position: absolute;
+  width: 288px;
+  top: 24px;
+  left: 94px;
+  font-family: "Joan", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.CART .text-wrapper-2 {
+  top: 27px;
+  left: 1218px;
+  position: absolute;
+  width: 93px;
+  font-family: "Joan", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.CART .text-wrapper-3 {
+  top: 194px;
+  left: 1264px;
+  position: absolute;
+  width: 93px;
+  font-family: "Joan", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.CART .text-wrapper-4 {
+  top: 614px;
+  left: 1274px;
+  position: absolute;
+  width: 93px;
+  font-family: "Joan", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.CART .backarrow {
+  position: absolute;
+  width: 86px;
+  height: 69px;
+  top: 14px;
+  left: 0;
+  object-fit: cover;
+}
+
+.CART .image {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 25px;
+  left: 1347px;
+  object-fit: cover;
+}
+
+.CART .huaeweippro {
+  position: absolute;
+  width: 327px;
+  height: 218px;
+  top: 212px;
+  left: 34px;
+  object-fit: cover;
+}
+
+.CART .text-wrapper-5 {
+  position: absolute;
+  width: 255px;
+  top: 171px;
+  left: 34px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.CART .text-wrapper-6 {
+  position: absolute;
+  width: 255px;
+  top: 621px;
+  left: 43px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.CART .huawei-old {
+  position: absolute;
+  width: 341px;
+  top: 211px;
+  left: 395px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.CART .MSI-old-gaming {
+  position: absolute;
+  width: 341px;
+  top: 672px;
+  left: 404px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.CART .img {
+  position: absolute;
+  width: 327px;
+  height: 224px;
+  top: 673px;
+  left: 43px;
+}
+
+.CART .overlap-group {
+  width: 209px;
+  top: 920px;
+  position: absolute;
+  height: 52px;
+  left: 1184px;
+}
+
+.CART .rectangle-3 {
+  width: 153px;
+  height: 51px;
+  top: 1px;
+  background-color: #90c7fb;
+  position: absolute;
+  left: 0;
+}
+
+.CART .message {
+  width: 209px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Joan", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.CART .span {
+  font-family: "Joan", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+}
+
+.CART .text-wrapper-7 {
+  font-size: 24px;
+}
+
+.CART .overlap {
+  width: 153px;
+  top: 436px;
+  position: absolute;
+  height: 52px;
+  left: 1184px;
+}
+
+.CART .rectangle-4 {
+  width: 153px;
+  height: 51px;
+  top: 1px;
+  background-color: #8fc7fb;
+  position: absolute;
+  left: 0;
+}
+
+.CART .p {
+  width: 153px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Joan", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* Add transition and cursor pointer to message buttons */
+.CART .rectangle-3,
+.CART .rectangle-4 {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover effect: darker blue and scale */
+.CART .rectangle-3:hover,
+.CART .rectangle-4:hover {
+  background-color: #5aa0e8; /* darker blue */
+  transform: scale(1.05);
+}
+
+/* Also scale the text with the button */
+.CART .overlap-group:hover .message,
+.CART .overlap:hover .p {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Message icon animation and hover */
+.CART .image {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.CART .image:hover {
+  transform: scale(1.15) rotate(10deg);
+  /* Slight scale and rotate for fun */
+}
+
+/* Edit features hover */
+.CART .text-wrapper-2,
+.CART .text-wrapper-3,
+.CART .text-wrapper-4 {
+  transition: color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.CART .text-wrapper-2:hover,
+.CART .text-wrapper-3:hover,
+.CART .text-wrapper-4:hover {
+  color: #2e7d32; /* a nice green */
+  transform: scale(1.1);
+}
+
+/* Optional: Add subtle pulse animation to message icon (infinite) */
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.CART .image.pulsing {
+  animation: pulse 2s infinite ease-in-out;
+}
+

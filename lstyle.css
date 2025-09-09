@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(Background.png);
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.wrapper {
+    margin-top: 10vh;
+}
+
+.content {
+    display: flex;
+    gap: 0;
+}
+
+form {
+    display: flex;
+    background-color: #fff;
+    width: 30vw;
+    height: 80vh;
+    border-radius: 15px 0 0 15px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 50px rgba(0, 0, 0, 0.15);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.login-form label {
+    align-self: flex-start;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.text-fields {
+    height: 40px;
+    width: 285px;
+    border-radius: 15px;
+    border: 1px solid rgb(179, 179, 179);
+    padding: 0 10px;
+    transition: all 0.3s ease;
+}
+
+.text-fields:focus {
+    border-color: #4caf50; /* eco green accent */
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.4);
+    outline: none;
+}
+
+.Bttn {
+    width: 205px;
+    height: 45px;
+    border-radius: 15px;
+    border: none;
+    background-color: #6200ea;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.Bttn:hover {
+    background-color: #7f39fb;
+    transform: translateY(-2px);
+}
+
+#LBttn {
+    margin-top: 25pt;
+    border: 1px solid rgb(179, 179, 179);
+    background-color: #11ff11; /* keep original green */
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+#LBttn:hover {
+    background-color: #0ecc0e;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(17, 255, 17, 0.4);
+}
+
+#RBttn {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+#RBttn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.right-panel {
+    background-image: url('Leaf.jpeg');
+    background-size: cover;
+    width: 30vw;
+    height: 80vh;
+    border-radius: 0 15px 15px 0;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.right-panel:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 50px rgba(0, 0, 0, 0.15);
+}
+
+.overlay {
+    width: 80%;
+    max-width: 360px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.75));
+    color: #fff;
+    padding: 28px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.overlay h2 {
+    margin: 0 0 10px 0;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.desc {
+    font-size: 14px;
+    opacity: 0.95;
+    line-height: 1.45;
+    margin-bottom: 18px;
+}
