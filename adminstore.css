@@ -1,0 +1,249 @@
+.ADMIN-STORE {
+  background-color: #ffffff;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.ADMIN-STORE .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.ADMIN-STORE .overlap {
+  height: 254px;
+  top: 147px;
+  background-color: #4faa47;
+  border-radius: 20px 20px 20px 0px;
+  border: 1px solid;
+  border-color: #000000;
+  box-shadow: 0px 4px 4px #00000040;
+  position: absolute;
+  width: 1344px;
+  left: 48px;
+}
+
+.ADMIN-STORE .rectangle {
+  position: absolute;
+  width: 222px;
+  height: 222px;
+  top: 15px;
+  left: 13px;
+  object-fit: cover;
+}
+
+.ADMIN-STORE .navbar {
+  position: absolute;
+  width: 1386px;
+  height: 76px;
+  top: 40px;
+  left: 27px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #000000;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.ADMIN-STORE .text-wrapper {
+  left: 25px;
+  position: absolute;
+  top: 21px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ADMIN-STORE .text-wrapper-2 {
+  left: 996px;
+  position: absolute;
+  top: 21px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ADMIN-STORE .text-wrapper-3 {
+  left: 897px;
+  position: absolute;
+  top: 21px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ADMIN-STORE .text-wrapper-4 {
+  left: 1287px;
+  position: absolute;
+  top: 21px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ADMIN-STORE .text-wrapper-5 {
+  position: absolute;
+  top: 21px;
+  left: 1115px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ADMIN-STORE .text-wrapper-6 {
+  position: absolute;
+  top: 18px;
+  left: 644px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ADMIN-STORE .text-wrapper-7 {
+  position: absolute;
+  top: 431px;
+  left: 48px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ADMIN-STORE .overlap-group {
+  height: 117px;
+  top: 477px;
+  position: absolute;
+  width: 1344px;
+  left: 48px;
+}
+
+.ADMIN-STORE .rectangle-2 {
+  position: absolute;
+  width: 1344px;
+  height: 107px;
+  top: 10px;
+  left: 0;
+  background-color: #4faa47;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.ADMIN-STORE .text-wrapper-8 {
+  position: absolute;
+  top: 0;
+  left: 628px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 96px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ADMIN-STORE .rectangle-3 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 39px;
+  left: 1267px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #050505;
+}
+
+.ADMIN-STORE .text-wrapper-9 {
+  position: absolute;
+  top: 436px;
+  left: 207px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #848484;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+/* Adding a smooth transition for text */
+.ADMIN-STORE .navbar {
+  position: absolute;
+  width: 1386px;
+  height: 76px;
+  top: 40px;
+  left: 27px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #000000;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ADMIN-STORE .text-wrapper,
+.ADMIN-STORE .text-wrapper-2,
+.ADMIN-STORE .text-wrapper-3,
+.ADMIN-STORE .text-wrapper-4,
+.ADMIN-STORE .text-wrapper-5,
+.ADMIN-STORE .text-wrapper-6 {
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  transition: all 0.3s ease-in-out; /* Adding smooth transition */
+}
+
+/* Hover effect for navbar items */
+.ADMIN-STORE .navbar .text-wrapper:hover,
+.ADMIN-STORE .navbar .text-wrapper-2:hover,
+.ADMIN-STORE .navbar .text-wrapper-3:hover,
+.ADMIN-STORE .navbar .text-wrapper-4:hover,
+.ADMIN-STORE .navbar .text-wrapper-5:hover,
+.ADMIN-STORE .navbar .text-wrapper-6:hover {
+  color: #4faa47; /* Change color on hover */
+  transform: scale(1.1); /* Slightly scale the text */
+}
+
+/* Optional: Add underline on hover */
+.ADMIN-STORE .navbar .text-wrapper:hover,
+.ADMIN-STORE .navbar .text-wrapper-2:hover,
+.ADMIN-STORE .navbar .text-wrapper-3:hover,
+.ADMIN-STORE .navbar .text-wrapper-4:hover,
+.ADMIN-STORE .navbar .text-wrapper-5:hover,
+.ADMIN-STORE .navbar .text-wrapper-6:hover {
+  text-decoration: underline;
+}
